@@ -1,0 +1,19 @@
+{
+  "mire_train": {
+      "file_name": "mire_train/train.json",
+      "columns": {
+          "images": "image",
+          "prompt": "instruction",
+          "query": "input",
+          "response": "output"
+      }
+  },
+  "mire_test": {
+    "file_name": "mire_test/test_nohid_10pred.json",
+    "columns": {
+        "images": "image",
+        "prompt": "instruction",
+        "query": "input"
+    }
+}
+}
